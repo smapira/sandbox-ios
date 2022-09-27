@@ -58,6 +58,14 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+        let wallpaper = UIImageView(
+            image: UIImage.init(named: "fakurian-design-E8Ufcyxz514-unsplash"))
+        self.view.addSubview(wallpaper)
+        wallpaper.anchor(top: self.view.topAnchor,
+                         left: self.view.leftAnchor,
+                         width: self.view.bounds.width,
+                         centerX: self.view.centerXAnchor,
+                         centerY: self.view.centerYAnchor)
 	}
 
 }
