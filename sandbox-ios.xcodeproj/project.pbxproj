@@ -15,6 +15,7 @@
 		6C0C328428E3429A00A9C4F9 /* sandbox_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C328328E3429A00A9C4F9 /* sandbox_iosTests.swift */; };
 		6C0C328E28E3429A00A9C4F9 /* sandbox_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C328D28E3429A00A9C4F9 /* sandbox_iosUITests.swift */; };
 		6C0C329028E3429A00A9C4F9 /* sandbox_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C328F28E3429A00A9C4F9 /* sandbox_iosUITestsLaunchTests.swift */; };
+		6CAA0A0828E7339200E9FF85 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAA0A0728E7339200E9FF85 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6C0C328928E3429A00A9C4F9 /* sandbox-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sandbox-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0C328D28E3429A00A9C4F9 /* sandbox_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandbox_iosUITests.swift; sourceTree = "<group>"; };
 		6C0C328F28E3429A00A9C4F9 /* sandbox_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sandbox_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CAA0A0728E7339200E9FF85 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				6C0C326C28E3429800A9C4F9 /* AppDelegate.swift */,
+				6C0C327528E3429A00A9C4F9 /* Assets.xcassets */,
+				6C0C327A28E3429A00A9C4F9 /* Info.plist */,
+				6C0C327728E3429A00A9C4F9 /* LaunchScreen.storyboard */,
+				6CAA0A0728E7339200E9FF85 /* MainTabBarController.swift */,
 				6C0C326E28E3429800A9C4F9 /* SceneDelegate.swift */,
 				6C0C327028E3429800A9C4F9 /* ViewController.swift */,
-				6C0C327528E3429A00A9C4F9 /* Assets.xcassets */,
-				6C0C327728E3429A00A9C4F9 /* LaunchScreen.storyboard */,
-				6C0C327A28E3429A00A9C4F9 /* Info.plist */,
 			);
 			path = "sandbox-ios";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				6C0C327128E3429800A9C4F9 /* ViewController.swift in Sources */,
 				6C0C326D28E3429800A9C4F9 /* AppDelegate.swift in Sources */,
+				6CAA0A0828E7339200E9FF85 /* MainTabBarController.swift in Sources */,
 				6C0C326F28E3429800A9C4F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
